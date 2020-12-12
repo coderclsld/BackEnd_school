@@ -5,11 +5,12 @@ import com.lll.Test1.Node;
 import com.lll.Test1.TreeUtils;
 import com.lll.dao.CommentRepository;
 import com.lll.dao.UserRepository;
-import com.lll.entity.User;
+import com.lll.entity.Comment;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,12 +36,16 @@ public class UserControler {
 
         com.lll.Test1.TreeUtils treeUtils = new TreeUtils();
         List<Node> node = treeUtils.buildTree(info, 100);
-
         return node;
     }
     @RequestMapping("/bbb")
-    public String bbb(){
-        commentRepository.findAll();
+    public List<Comment> bbb(){
+        return commentRepository.findAll();
+    }
+    @GetMapping("/wensocket")
+    public ModelAndView socket(){
+        ModelAndView mv = new ModelAndView("/chat");
+        return mv;
     }
 
 }
