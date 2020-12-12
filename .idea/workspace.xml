@@ -19,13 +19,15 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5065d51f-1176-40d8-aa3b-237328f01d70" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lll/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lll/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lll/src/main/java/com/lll/controller/UserControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/lll/src/main/java/com/lll/controller/UserControler.java" afterDir="false" />
-    </list>
+    <list default="true" id="5065d51f-1176-40d8-aa3b-237328f01d70" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,13 +69,15 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,7 +99,16 @@
       <option name="presentableId" value="Default" />
       <updated>1607613996553</updated>
       <workItem from="1607613997681" duration="17778000" />
+      <workItem from="1607743697799" duration="1301000" />
     </task>
+    <task id="LOCAL-00001" summary="Revert &quot;‘上传了聊天模块的参考代码&quot;&#10;&#10;This reverts commit 63ebeec0">
+      <created>1607744239704</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607744239704</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,12 +124,36 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Revert &quot;‘上传了聊天模块的参考代码&quot;&#10;&#10;This reverts commit 63ebeec0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;‘上传了聊天模块的参考代码&quot;&#10;&#10;This reverts commit 63ebeec0" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1148" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1607666245347">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1148" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1607666245347" />
+    <state x="516" y="112" key="CommitChangelistDialog2" timestamp="1607744238753">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="516" y="112" key="CommitChangelistDialog2/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1607744238753" />
     <state x="644" y="304" key="FileChooserDialogImpl" timestamp="1607614111675">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -161,14 +198,23 @@
     </state>
     <state width="1493" height="223" key="GridCell.Tab.1.right/-1920.0.1536.864/0.0.1920.1080@-1920.0.1536.864" timestamp="1607742363240" />
     <state width="1877" height="295" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1607651402665" />
+    <state x="595" y="300" key="MultipleFileMergeDialog" timestamp="1607744227265">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="595" y="300" key="MultipleFileMergeDialog/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1607744227265" />
     <state x="461" y="184" key="SettingsEditor" timestamp="1607614120229">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="184" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1607614120229" />
-    <state x="-1121" y="203" key="run.anything.popup" timestamp="1607741881488">
-      <screen x="-1920" y="0" width="1536" height="864" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1607743970731">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1607743970731" />
+    <state x="999" y="254" key="run.anything.popup" timestamp="1607748397775">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="-1121" y="203" key="run.anything.popup/-1920.0.1536.864/0.0.1920.1080@-1920.0.1536.864" timestamp="1607741881488" />
+    <state x="999" y="254" key="run.anything.popup/-1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1607748397775" />
     <state x="999" y="254" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1607660755096" />
   </component>
 </project>
