@@ -6,12 +6,14 @@ import com.lll.Test1.TreeUtils;
 import com.lll.dao.CommentRepository;
 import com.lll.dao.UserRepository;
 import com.lll.entity.Comment;
+import com.lll.util.RedisUtil;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.ModelAndView;
 
+import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,6 +23,12 @@ public class UserControler {
     public UserRepository userRepository;
     @Autowired
     public CommentRepository commentRepository;
+
+    @Autowired
+    private RedisTemplate<String, Object> redisTemplate;
+
+    @Resource
+    private RedisUtil redisUtil;
 
     @RequestMapping(value = "/aaa", produces = "application/json")
     public  List<Node> asd(){
@@ -42,10 +50,10 @@ public class UserControler {
     public List<Comment> bbb(){
         return commentRepository.findAll();
     }
+
     @GetMapping("/wensocket")
-    public ModelAndView socket(){
-        ModelAndView mv = new ModelAndView("/chat");
-        return mv;
+   public Object reidsas(){
+        return redisTemplate.opsForValue().get("a");
     }
 
 }
