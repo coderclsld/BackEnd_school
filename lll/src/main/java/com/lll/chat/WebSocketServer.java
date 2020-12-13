@@ -68,15 +68,18 @@ public class WebSocketServer {
 
         try {
             sendMessage("连接成功");
-            Map<Object, Object> map = redisUtil.hmget(userId);
-            Set<Object> set = map.keySet();
-            System.out.println(set);
-            for (Object o : set){
-                String os = o.toString();
-                webSocketMap.get(userId).sendMessage(JSON.toJSONString(redisUtil.hget(userId,os)));
-                redisTemplate.opsForHash().delete(userId,o);
-                System.out.println(JSON.toJSONString(redisUtil.hget(userId,os)));
-            }
+//            Map<Object, Object> map = redisUtil.hmget(userId);
+//            Set<Object> set = map.keySet();
+//            System.out.println(set);
+//            for (Object o : set){
+//                String os = o.toString();
+//                webSocketMap.get(userId).sendMessage(JSON.toJSONString(redisUtil.hget(userId,os)));
+//                redisTemplate.opsForHash().delete(userId,o);
+//                System.out.println(JSON.toJSONString(redisUtil.hget(userId,os)));
+//            }
+//                redisUtil.lGet(userId,0,-1);
+            webSocketMap.get(userId).sendMessage(JSON.toJSONString(redisUtil.lGet(userId,0,-1)));
+            redisTemplate.delete(userId);
 //            webSocketMap.get(userId).sendMessage();
 
         } catch (IOException e) {
@@ -121,7 +124,7 @@ public class WebSocketServer {
 
                 }else{
                     log.error("请求的userId:"+toUserId+"不在该服务器上");
-                            redisUtil.hset(toUserId,userId,jsonObject);
+                            redisUtil.lSet(toUserId,jsonObject);
 
                     //否则不在这个服务器上，发送到mysql或者redis
                 }
