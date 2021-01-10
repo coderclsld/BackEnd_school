@@ -27,11 +27,113 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5065d51f-1176-40d8-aa3b-237328f01d70" name="Default Changelist" comment="" />
+    <list default="true" id="5065d51f-1176-40d8-aa3b-237328f01d70" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_52_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/.settings/org.eclipse.buildship.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/bin/main/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/bin/main/dao/SportMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/bin/main/dao/doctorMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/bin/main/dao/interaction.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/bin/main/dao/memorandumInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/bin/main/dao/messageMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/bin/test/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/logs/glmapper-spring-boot/glmapper-loggerone.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/logs/spring.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/FileUpload/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/FileUpload/FileUpload.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/Library.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/config/MyWebSocketServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/config/SpringUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/config/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/config/WebSendController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/config/WebSocketConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/config/WebSocketMapUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/dao/DoctorDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/dao/InteractionDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/dao/MemorandumInfoDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/dao/MessageDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/dao/SportDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/entity/Doctor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/entity/Interaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/entity/MemorandumInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/entity/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/entity/Sport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/service/DoctorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/service/InteractionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/service/MemorandumInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/service/MessageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/service/SportService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/service/impl/DoctorServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/service/impl/InteractionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/service/impl/MemorandumInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/service/impl/MessageServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/service/impl/SportServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/wecontroller/DoctorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/wecontroller/InteractionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/wecontroller/LoginControler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/wecontroller/MemorandumController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/wecontroller/MessageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/java/DPI/wecontroller/SportController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/resources/dao/SportMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/resources/dao/doctorMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/resources/dao/interaction.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/resources/dao/memorandumInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/resources/dao/messageMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/resources/dpi.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/main/resources/templates.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Majic_seven-DPI-master/DPI/src/test/java/DPI/LibraryTest.java" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,9 +148,16 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="C:\Users\clsld\.m2\repository" />
-        <option name="mavenHome" value="C:\开发软件\apache-maven-3.6.3-bin\apache-maven-3.6.3" />
+        <option name="localRepository" value="D:\Java_install\maven\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository" />
+        <option name="mavenHome" value="D:/Java_install/maven/apache-maven-3.3.9-bin/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\Java_install\maven\apache-maven-3.3.9-bin\apache-maven-3.3.9\conf\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1lTH7s1wtfwIaZ1cQNHzo1cCWnD" />
@@ -63,25 +172,28 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.43851507" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LllApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="lll" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lll.LllApplication" />
@@ -90,7 +202,10 @@
       </method>
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5065d51f-1176-40d8-aa3b-237328f01d70" name="Default Changelist" comment="" />
@@ -100,6 +215,7 @@
       <updated>1607613996553</updated>
       <workItem from="1607613997681" duration="17778000" />
       <workItem from="1607743697799" duration="1301000" />
+      <workItem from="1610265287275" duration="567000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;‘上传了聊天模块的参考代码&quot;&#10;&#10;This reverts commit 63ebeec0">
       <created>1607744239704</created>
@@ -112,14 +228,16 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -139,7 +257,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Revert &quot;‘上传了聊天模块的参考代码&quot;&#10;&#10;This reverts commit 63ebeec0" />
