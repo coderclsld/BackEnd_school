@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/chattest?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    url: jdbc:mysql://47.112.99.56:3307/chattest?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver

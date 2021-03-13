@@ -18,7 +18,6 @@ import org.apache.commons.logging.LogFactory;
 @Component
 public class websocketServer {
 
-
     static Log log= LogFactory.getLog(websocketServer.class);
     /**静态变量，用来记录当前在线连接数。应该把它设计成线程安全的。*/
     private static int onlineCount = 0;
@@ -103,7 +102,7 @@ public class websocketServer {
                 //追加发送人(防止串改)
                 //isNotBlank:排除空格参数
                 jsonObject.put("fromUserId",this.userId);
-                String toUserId=jsonObject.getString("toUserId");
+                String toUserId = jsonObject.getString("toUserId");
                 //传送给对应toUserId用户的websocket
                 if(StringUtils.isNotBlank(toUserId)&&webSocketMap.containsKey(toUserId)){
                     webSocketMap.get(toUserId).sendMessage(jsonObject.toJSONString());

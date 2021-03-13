@@ -2,26 +2,128 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <parent>
-        <artifactId>school_platfrom</artifactId>
-        <groupId>org.example</groupId>
-        <version>1.0-SNAPSHOT</version>
-    </parent>
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.3.4.RELEASE</version>
+        <relativePath/>
+    </parent>
 
+    <groupId>org.example</groupId>
     <artifactId>chat</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>chat</name>
+    <description>Demo project for Spring Boot</description>
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+            <version>2.4.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.23</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <version>2.4.2</version>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.junit.vintage</groupId>
+                    <artifactId>junit-vintage-engine</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.spotify/docker-maven-plugin -->
+        <!--        <dependency>-->
+        <!--            <groupId>com.spotify</groupId>-->
+        <!--            <artifactId>docker-maven-plugin</artifactId>-->
+        <!--            <version>1.2.2</version>-->
+        <!--        </dependency>-->
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>2.4.2</version>
+        </dependency>
+        <!--        添加websocket依赖，用在聊天模块-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-websocket</artifactId>
+            <version>2.4.2</version>
+        </dependency>
+        <!--        阿里巴巴转化为json的工具包-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.47</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.8.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.4</version>
+        </dependency>
+        <!--        reids依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+            <version>2.4.2</version>
+        </dependency>
+    </dependencies>
+
+
     <build>
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>com.spotify</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
+                <version>1.1.0</version>
+                <executions>
+                    <execution>
+                        <id>build-image</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>build</goal>
+                        </goals>
+                    </execution>
+                </executions>
                 <configuration>
-                    <source>7</source>
-                    <target>7</target>
+                    <imageName>school/${project.artifactId}</imageName>
+                    <dockerHost>http://47.112.99.56:2375</dockerHost>
+                    <baseImage>java:8</baseImage>
+                    <entryPoint>["java", "-jar","/${project.build.finalName}.jar"]
+                    </entryPoint>
+                    <resources>
+                        <resource>
+                            <targetPath>/</targetPath>
+                            <directory>${project.build.directory}</directory>
+                            <include>${project.build.finalName}.jar</include>
+                        </resource>
+                    </resources>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-
-
 </project>
