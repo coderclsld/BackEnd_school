@@ -23,44 +23,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3b27906-c54a-48fd-a2d1-c2d5c285e368" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/school-back-end.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat/src/main/java/com/school/config/OSSProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat/src/main/java/com/school/controller/UploadfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat/src/main/java/com/school/util/UploadFIleToOss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chat/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/src/main/java/com/school/chatApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat/src/main/java/com/school/chatApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/src/main/java/com/school/controller/websocket/websocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat/src/main/java/com/school/controller/websocket/websocketServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chat/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chat/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/target/chat-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/target/chat-1.0-SNAPSHOT.jar.original" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/chat/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chat/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/target/classes/com/school/Dao/ArticleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat/target/classes/com/school/Dao/ArticleRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/target/classes/com/school/Dao/CommentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat/target/classes/com/school/Dao/CommentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/target/classes/com/school/Dao/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat/target/classes/com/school/Dao/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/target/classes/com/school/chatApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat/target/classes/com/school/chatApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/target/classes/com/school/config/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat/target/classes/com/school/config/RedisConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/target/classes/com/school/config/websocketConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat/target/classes/com/school/config/websocketConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/target/classes/com/school/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat/target/classes/com/school/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/target/classes/com/school/controller/websocket/webSocketSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat/target/classes/com/school/controller/websocket/webSocketSession.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/target/classes/com/school/controller/websocket/websocketServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat/target/classes/com/school/controller/websocket/websocketServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/target/classes/com/school/entity/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat/target/classes/com/school/entity/Article.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/target/classes/com/school/entity/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat/target/classes/com/school/entity/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/target/classes/com/school/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat/target/classes/com/school/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/target/classes/com/school/util/CommentInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat/target/classes/com/school/util/CommentInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/target/classes/com/school/util/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat/target/classes/com/school/util/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/target/classes/com/school/util/RedisUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat/target/classes/com/school/util/RedisUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/target/classes/com/school/util/Status$ExpireEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat/target/classes/com/school/util/Status$ExpireEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/target/classes/com/school/util/Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat/target/classes/com/school/util/Status.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/target/classes/com/school/util/TreeUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/chat/target/classes/com/school/util/TreeUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shequ/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shequ/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shequ/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/shequ/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shequ/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/shequ/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shequ/target/classes/clsld/controller/AnswerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shequ/target/classes/clsld/controller/AnswerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shequ/target/classes/clsld/controller/QuestionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shequ/target/classes/clsld/controller/QuestionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shequ/target/classes/clsld/controller/ServiceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shequ/target/classes/clsld/controller/ServiceController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shequ/target/classes/clsld/dao/answerdao.class" beforeDir="false" afterPath="$PROJECT_DIR$/shequ/target/classes/clsld/dao/answerdao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shequ/target/classes/clsld/dao/commentdao.class" beforeDir="false" afterPath="$PROJECT_DIR$/shequ/target/classes/clsld/dao/commentdao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shequ/target/classes/clsld/dao/questiondao.class" beforeDir="false" afterPath="$PROJECT_DIR$/shequ/target/classes/clsld/dao/questiondao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shequ/target/classes/clsld/entity/answer.class" beforeDir="false" afterPath="$PROJECT_DIR$/shequ/target/classes/clsld/entity/answer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shequ/target/classes/clsld/entity/comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/shequ/target/classes/clsld/entity/comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shequ/target/classes/clsld/entity/question.class" beforeDir="false" afterPath="$PROJECT_DIR$/shequ/target/classes/clsld/entity/question.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shequ/target/classes/clsld/shequApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/shequ/target/classes/clsld/shequApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/target/docker/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/target/docker/chat-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat/target/test-classes/image_info.json" beforeDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,33 +64,45 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\开发软件\apache-maven-3.6.3-bin\apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="C:\开发软件\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="localRepository" value="D:\Java_install\maven\apache-maven-3.3.9-bin\apache-maven-3.3.9\repository" />
+        <option name="mavenHome" value="D:/Java_install/maven/apache-maven-3.3.9-bin/apache-maven-3.3.9" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1ndJZ3lqfDCshJCxImcTwjMrxH6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="foldersAlwaysOnTop" value="false" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootSpringBootSettingsPanel" value="false" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Desktop/vhr-master" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -119,6 +115,18 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\clsld\Desktop\school_platfrom\shequ\src\main\resources" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.chatApplication">
     <configuration name="chatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -154,7 +162,10 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b3b27906-c54a-48fd-a2d1-c2d5c285e368" name="Default Changelist" comment="" />
@@ -176,23 +187,28 @@
       <workItem from="1615086928394" duration="21864000" />
       <workItem from="1615306927119" duration="7000000" />
       <workItem from="1615387232023" duration="84000" />
+      <workItem from="1615726405032" duration="45000" />
+      <workItem from="1615727351338" duration="79000" />
+      <workItem from="1615727564203" duration="3230000" />
+      <workItem from="1615730812623" duration="4500000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="367" y="355" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1611717339153">
