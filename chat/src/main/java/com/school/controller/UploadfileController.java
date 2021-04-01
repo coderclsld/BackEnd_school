@@ -30,7 +30,6 @@ public class UploadfileController {
         // 1.执行文件上传
         String uploadReturnPicResultEntity = UploadFIleToOss.uploadFileToOss(
                 ossProperties.getEndPoint(), ossProperties.getAccessKeyId(), ossProperties.getAccessKeySecret(), returnPicture.getInputStream(), ossProperties.getBucketName(), ossProperties.getBucketDomain(), returnPicture.getOriginalFilename());
-
         // 2.返回上传的结果
         return uploadReturnPicResultEntity;
     }
