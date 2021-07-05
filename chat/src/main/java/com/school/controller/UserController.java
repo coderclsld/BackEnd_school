@@ -1,8 +1,8 @@
 package com.school.controller;
 
-import com.school.Dao.CommentRepository;
-import com.school.Dao.UserRepository;
-import com.school.entity.Comment;
+import com.school.dao.CommentRepository;
+import com.school.dao.UserRepository;
+import com.school.entity.comment;
 import com.school.util.CommentInfo;
 import com.school.util.Node;
 import com.school.util.RedisUtil;
@@ -33,7 +33,6 @@ public class UserController {
     @RequestMapping(value = "/aaa", produces = "application/json")
     public List<Node> asd(){
         List<CommentInfo> info = new ArrayList<>();
-
         info.add(new CommentInfo(1,7,"叶永",3,null,null,"文章 你写的真棒!",1));
         info.add(new CommentInfo(2,3,"YY",3,null,null,"这篇文章的人你是菜鸟吧!",1));
         info.add(new CommentInfo(3,1,"KJ",3,null,null,"一般一般吧!",1));
@@ -47,7 +46,7 @@ public class UserController {
         return node;
     }
     @RequestMapping("/bbb")
-    public List<Comment> bbb(){
+    public List<comment> bbb(){
         return commentRepository.findAll();
     }
 
